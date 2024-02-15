@@ -15,6 +15,7 @@ garfield = Cat()
 garfield.name = "Garfield"
 garfield.age = 50
 
+print(garfield.age + stella.age)
 
 
 #Create objects here
