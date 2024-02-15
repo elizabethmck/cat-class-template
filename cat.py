@@ -12,9 +12,9 @@ class Cat():
 stella = Cat()
 stella.name = "Stella"
 stella.age = 7
-stella.speak
+assert stella.speak() == "Meow"
 
 garfield = Cat()
 garfield.name = "Garfield"
 garfield.age = 50
-garfield.speak
+assert garfield.speak() == "Meow"
