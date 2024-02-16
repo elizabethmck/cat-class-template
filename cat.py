@@ -12,8 +12,9 @@ class Cat():
 stella = Cat()
 stella.name = "Stella"
 stella.age = 7
-
+stella.speak()
 
 garfield = Cat()
 garfield.name = "Garfield"
 garfield.age = 50
+garfield.speak()
